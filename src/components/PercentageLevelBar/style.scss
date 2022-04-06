@@ -1,0 +1,26 @@
+.percentage-level-bar {
+  margin-top: 1.2rem;
+  width: 520px;
+  height: 8px;;
+  display: flex;
+}
+
+.border{
+  border-right: 2px solid #fff;
+}
+.percentage-level-bar__1 {
+  width: calc(520px * 40 / 100);
+  background-color: #ffcc00;
+}
+.percentage-level-bar__2 {
+  width: calc(520px * 30 / 100);
+  background-color: #5856D5;
+}
+.percentage-level-bar__3 {
+  width: calc(520px *  20/ 100);
+  background-color: #2196F3;
+}
+.percentage-level-bar__4 {
+  width: calc(520px * 10 / 100);
+  background-color: #A0B0B9;
+}

@@ -1,0 +1,28 @@
+.percentage-level-bar-data {
+  display: flex;
+  width: fit-content;
+  font-size: .7rem;
+}
+.percentage-level-bar__box {
+  width: 10px;
+  height: 10px;
+  background-color: #ffcc00;
+  margin-right: 5px;
+  transform: translateY(4px);
+}
+
+.color-1 {
+  background-color: #ffcc00;
+}
+
+.color-2 {
+  background-color: #5856d5;
+}
+
+.color-3 {
+  background-color: #2196f3;
+}
+
+.color-4 {
+  background-color: #a0b0b9;
+}

@@ -1,0 +1,21 @@
+.top-metrics-data-item {
+  display: flex;
+  width: fit-content;
+}
+.top-metrics-data-item__sphere {
+  width: 10px;
+  height: 10px;
+  background-color: #8bc34a;
+  border-radius: 50%;
+  margin-right: 0.4rem;
+  transform: translateY(5px);
+}
+.top-metrics-data-item__body-data__title {
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.top-metrics-data-item__body-data__average {
+  font-size: 0.7rem;
+  color: #a0b0b9;
+}
