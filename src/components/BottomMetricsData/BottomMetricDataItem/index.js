@@ -36,7 +36,7 @@ const BottomMetricsDataItem = () => {
           You get 100% traffic on mobile and desktop devices.
         </div>
         <div className="bottom-metrics-data-item__secondary-data__help-links">
-          Help: <a className="bottom-metrics-data-item__secondary-data__help-links__link" href="">Searches</a>,<a className="bottom-metrics-data-item__secondary-data__help-links__link" href="">Pessimisation</a>
+          Help: <a className="bottom-metrics-data-item__secondary-data__help-links__link" href="">Searches</a>{", "}<a className="bottom-metrics-data-item__secondary-data__help-links__link" href="">Pessimisation</a>
         </div>
 
       </div>
