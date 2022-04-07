@@ -1,0 +1,38 @@
+.bottom-metrics-data-item {
+  margin-top: 2.5rem;
+}
+.bottom-metrics-data-item__main-data {
+  display: flex;
+}
+.bottom-metrics-data-item__main-data__body {
+  margin-left: 1.5rem;
+}
+
+.bottom-metrics-data-item__main-data__icon {
+  align-self: flex-start;
+}
+.bottom-metrics-data-item__main-data__body__title__text {
+  margin-right: 0.7rem;
+}
+
+.bottom-metrics-data-item__main-data__body__title__percentage {
+  font-size: 0.8rem;
+  padding: 0.15rem 0.6rem;
+  background-color: #8bc34a;
+  border-radius: 1rem;
+  color: #fff;
+}
+.bottom-metrics-data-item__main-data__body__title {
+  display: flex;
+  width: fit-content;
+  margin-bottom: 0.5rem;
+}
+
+.bottom-metrics-data-item__main-data__body__title__percentage--disabled {
+  background: transparent;
+  color: #4a4a4a;
+}
+
+.bottom-metrics-data-item__main-data__body__title--low-opacity {
+  color: #a0b0b9;
+}

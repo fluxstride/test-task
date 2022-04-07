@@ -1,10 +1,10 @@
 import './App.css';
-import Metrics from './components/Metrics';
+import Dashboard from './components/Dashboard'
 
 function App() {
   return (
     <div className="App">
-      <Metrics />
+      <Dashboard />
     </div>
   );
 }

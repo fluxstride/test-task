@@ -2,10 +2,10 @@ import MetricsBoard from "../MetricsBoard";
 import MetricsNavigation from "../MetricsNavigation";
 import "./style.scss"
 
-const Metrics = () => {
+const Dashboard = () => {
   return (
-    <div className="metrics">
-      <h3 className="metrics__title">
+    <div className="dashboard">
+      <h3 className="dashboard__title">
         Main metrics
       </h3>
       <MetricsNavigation />
@@ -14,4 +14,4 @@ const Metrics = () => {
   );
 }
 
-export default Metrics;
+export default Dashboard;
