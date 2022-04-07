@@ -1,4 +1,6 @@
 .bottom-metrics-data-item {
+  display: flex;
+  justify-content: space-between;
   margin-top: 2.5rem;
 }
 .bottom-metrics-data-item__main-data {
@@ -35,4 +37,27 @@
 
 .bottom-metrics-data-item__main-data__body__title--low-opacity {
   color: #a0b0b9;
+}
+
+.low-opacity {
+  color: #a0b0b9;
+}
+
+.bottom-metrics-data-item__secondary-data__help-links {
+  font-size: 0.8rem;
+}
+.bottom-metrics-data-item__secondary-data__help-links__link {
+  text-decoration: none;
+  color: #2196f3;
+}
+
+.bottom-metrics-data-item__secondary-data__heading {
+  line-height: 1.6;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.bottom-metrics-data-item__secondary-data__body-text {
+  font-size: 0.8rem;
+  color: #a0b0b9;
+  margin-bottom: .2rem;
 }

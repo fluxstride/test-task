@@ -22,12 +22,23 @@ const BottomMetricsDataItem = () => {
             <p className="bottom-metrics-data-item__main-data__body__title__text">
               27 985
             </p>
-            <p className="bottom-metrics-data-item__main-data__body__title__percentage bottom-metrics-data-item__main-data__body__title__percentage--disabled"></p>
+            <p className="bottom-metrics-data-item__main-data__body__title__percentage bottom-metrics-data-item__main-data__body__title__percentage--disabled low-opacity ">Last friday</p>
           </div>
 
         </div>
       </div>
       <div className="bottom-metrics-data-item__secondary-data">
+        <div className="bottom-metrics-data-item__secondary-data__heading">
+          <span>Mobile traffic: 100%</span> <br />
+          Web traffic: 100%
+        </div>
+        <div className="bottom-metrics-data-item__secondary-data__body-text">
+          You get 100% traffic on mobile and desktop devices.
+        </div>
+        <div className="bottom-metrics-data-item__secondary-data__help-links">
+          Help: <a className="bottom-metrics-data-item__secondary-data__help-links__link" href="">Searches</a>,<a className="bottom-metrics-data-item__secondary-data__help-links__link" href="">Pessimisation</a>
+        </div>
+
       </div>
     </div>
   )
